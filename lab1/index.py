@@ -9,4 +9,14 @@ for i in range(m):
         matrix[i].append(random.randint(0, 100))
 for el in matrix:
     print(el)
-        
+
+matrix2 = []
+for i in range(n):
+    matrix2.append([])
+    for g in range(m):
+        matrix2[i].append(matrix[g][i])
+
+for el in matrix2:
+    print(el)
+
+input()
